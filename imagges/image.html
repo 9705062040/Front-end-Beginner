@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <style>
+        h1 {
+            text-align: center;
+            color: blue;
+        }
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            border: 2px solid aliceblue;
+            padding: 20px;
+            border-radius: 20px;
+        }
+        body {
+            background-color: rgb(217, 211, 211);
+        }
+        .gallery {
+            display: flex;
+            justify-content:center;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        .gallery img {
+            width: 200px;
+            height: 300px;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Image Gallery</h1>
+    <div class="container">
+        <div class="gallery">
+            <img src="r1.jpeg" id="r1" alt="">
+            <img src="r2.jpeg" id="r2" alt="">
+            <img src="r3.jpeg" id="r3" alt="">
+            <img src="r4.jpeg" id="r4" alt="">
+        </div>
+        <div class="gallery">
+            <img src="r5.jpeg" id="r5" alt="">
+            <img src="r6.jpeg" id="r6" alt="">
+            <img src="r7.jpeg" id="r7" alt="">
+            <img src="r8.jpeg" id="r8" alt="">
+        </div>
+    </div>
+</body>
+
+</html>

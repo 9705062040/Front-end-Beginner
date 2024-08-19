@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <style>
+        body{
+            background-color: rgb(216, 216, 187);
+        }
+        h1 {
+            
+            color: rgb(255, 64, 0);
+            border-radius: 40px;
+            position: absolute;
+            top: 20px;
+            left: 600px;
+        }
+
+        .container {
+            max-width: 1300px;
+            border: 2px solid ;
+            background-color: rgb(249, 249, 245);
+            border-image: url('border.png')  30% round;
+            border-radius: 20px;
+            margin: auto;
+            padding: 10px;
+            padding-top: 80px;
+            box-shadow: 10px 10px rgb(126, 16, 128);
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .section1{
+            margin-top: 80px;
+        }
+
+        .section2 {
+            position: absolute;
+            top: 170px;
+            right: 130px;
+            
+
+        }
+
+        .section4 {
+            position: absolute;
+            top: 780px;
+            right: 130px;
+
+        }
+
+        legend {
+            color: rgb(230, 11, 164);
+            text-align: center;
+            font-size: larger;
+            font-weight: bolder;
+        }
+
+        li span {
+            display: inline-block;
+            width: 200px;
+            margin-right: 25px;
+        }
+        span:first-child{
+            color: rgb(222, 91, 15);
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        img {
+            position: absolute;
+            width: 100px;
+        }
+
+        #chef {
+            top: 15px;
+            left: 120px;
+            border-radius: 50%;
+        }
+
+        #chef1 {
+            top: 15px;
+            right: 120px;
+            border-radius: 50%;
+        }
+
+        fieldset {
+            border-radius: 20px;
+            width: 500px;
+            height: 550px;
+            border-color: azure;
+        }
+        fieldset:hover{
+            background-color: rgb(255, 254, 253);
+            cursor: pointer;
+        }
+        p{
+            color: rgb(159, 11, 197);
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        img{
+            position: absolute;
+            top: 0%;
+             border-radius: 50px;
+        }
+        #c1{
+            width: 200px;
+            left:650px;
+            top:200px;
+        }
+        #p1{
+            width: 200px;
+            height: 200px;
+            left:650px;
+            top:500px;
+        }
+        #fr1{
+            width: 200px;
+            height: 200px;
+            left:650px;
+            top:800px;
+        }
+        #t1{
+            width: 200px;
+            height: 200px;
+            left:650px;
+            top:1100px; 
+        }
+      
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Friends Restaurant</h1>
+        <div class="section1">
+
+            <fieldset id="f1">
+                <legend>appetizers</legend>
+                <ul>
+                    <li>
+                        <span>
+                            <h3>Cheese Puffs</h3>
+                        </span>
+                        <span>150 rs</span>
+                        <p>Crispy, flaky puffs filled with creamy cheese. Perfect for a light start.</p>
+                    </li>
+                    <li>
+                        <span>
+                            <h3>Deviled Eggs</h3>
+                        </span>
+                        <span>80 rs</span>
+                        <p>Classic deviled eggs with a tangy, savory filling.</p>
+                    </li>
+                    <li>
+                        <span>
+                            <h3>Prawn Cocktail</h3>
+                        </span>
+                        <span>100 rs</span>
+                        <p>Juicy prawns served with a zesty cocktail sauce.</p>
+                    </li>
+                    <li>
+                        <span>
+                            <h3>Avocado Dip</h3>
+                        </span>
+                        <span>90 rs</span>
+                        <p>Creamy avocado dip served with crunchy tortilla chips.</p>
+                    </li>
+                </ul>
+            </fieldset>
+        </div>
+        <div class="section2">
+            <div class="main course">
+                <fieldset id="f2">
+                    <legend>Main Courses</legend>
+                    <ul>
+                        <li>
+                            <span>
+                                <h3>Chicken Biryani</h3>
+                            </span>
+                            <span>130 rs</span>
+                            <p>Flavorful rice dish with tender chicken pieces, spiced to perfection.</p>
+                        </li>
+                        <li>
+                            <span>
+                                <h3>Mutton Biryani</h3>
+                            </span>
+                            <span>180 rs</span>
+                            <p>Rich and savory mutton biryani with aromatic spices.</p>
+                        </li>
+                        <li>
+                            <span>
+                                <h3>Gobi Rice</h3>
+                            </span>
+                            <span>80 rs</span>
+                            <p>Spiced rice with cauliflower, perfect for a vegetarian delight.</p>
+                        </li>
+                        <li>
+                            <span>
+                                <h3>Veg Rice</h3>
+                            </span>
+                            <span>90 rs</span>
+                            <p>Mixed vegetable rice with a blend of herbs and spices.</p>
+                        </li>
+                    </ul>
+                </fieldset>
+            </div>
+        </div><br><br>
+        <div class="section3">
+
+            <fieldset id="f3">
+                <legend>Desserts</legend>
+                <ul>
+                    <li>
+                        <span>
+                            <h3>Cheesecake</h3>
+                        </span>
+                        <span>109 rs</span>
+                        <p>Creamy cheesecake with a graham cracker crust, topped with fresh fruit.</p>
+                    </li>
+                    <li>
+                        <span>
+                            <h3>Cookies</h3>
+                        </span>
+                        <span>130 rs</span>
+                        <p>Freshly baked cookies with a gooey center and crispy edges.</p>
+                    </li>
+                    <li>
+                        <span>
+                            <h3>Fruit Tart</h3>
+                        </span>
+                        <span>119 rs</span>
+                        <p>A delicious tart filled with custard and topped with seasonal fruits.</p>
+                    </li>
+                    <li>
+                        <span>
+                            <h3>Cupcakes</h3>
+                        </span>
+                        <span>130 rs</span>
+                        <p>Soft and moist cupcakes with a variety of flavors and frostings.</p>
+                    </li>
+                </ul>
+            </fieldset>
+        </div>
+        <div class="section4">
+            <fieldset id="f4">
+            <legend>Drinks</legend>
+            <ul>
+                <li>
+                    <span>
+                        <h3>Mojito</h3>
+                    </span>
+                    <span>109 rs</span>
+                    <p>A refreshing cocktail with lime, mint, and soda.</p>
+                </li>
+                <li>
+                    <span>
+                        <h3>Tequila Sunrise</h3>
+                    </span>
+                    <span>129 rs</span>
+                    <p>A vibrant cocktail with tequila, orange juice, and grenadine.</p>
+                </li>
+                <li>
+                    <span>
+                        <h3>Old Fashioned</h3>
+                    </span>
+                    <span>159 rs</span>
+                    <p>A classic cocktail with bourbon, bitters, and a twist of orange.</p>
+                </li>
+                <li>
+                    <span>
+                        <h3>Daiquiri</h3>
+                    </span>
+                    <span>109 rs</span>
+                    <p>A refreshing blend of rum, lime juice, and sugar.</p>
+                </li>
+            </ul>
+        </fieldset>
+        </div>
+        <img src="chef.jpeg" id='chef' alt="Chef">
+        <img src="chef1.jpeg" id="chef1" alt="Chef1">
+        <img src="bongulo.jpeg" id="c1" alt="">
+        <img src="p1.jpeg" id="p1" alt="">
+        <img src="fruit.jpeg" id="fr1">
+        <img src="tequilla.jpeg" id="t1">
+    </div>
+</body>
+
+</html>

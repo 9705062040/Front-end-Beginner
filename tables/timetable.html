@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Table</title>
+    <style>
+        table,tr,td,th{
+            border: 1px solid;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        th{
+            background-color: blanchedalmond;
+        }
+        td,th{
+            width:80px;
+            height:50px
+        }
+        b{
+            display: inline;
+            justify-content: center;
+        }
+        .table{
+            margin: auto;
+            margin-top: auto;
+        }
+        caption{
+            font-size: larger;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bolder;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <table class="table">
+        <caption>CSE(DS3) TIME TABLE</caption>
+        <tr>
+            <th>DAY/HR</th>
+            <th>10AM<br> TO <br>11AM</th>
+            <th>11AM<br> TO<br> 12PM</th>
+            <th rowspan="6" style="writing-mode: vertical-rl;text-orientation:upright;">LUNCH BREAK</th>
+            <th> 1:15PM<br> TO <br>2:15PM</th>
+            <th>2:15PM<br> TO <br>3:15PM</th>
+            <th rowspan="6" style="writing-mode: vertical-rl;text-orientation:upright;">BREAK</th>
+            <th>3:45PM TO 4:45PM</th>
+            <th>4:45PM TO 5:45PM</th>
+        </tr>
+        <tr>
+            <td>MON</td>
+            <td>MOOC</td>
+            <td>ML</td>
+            <td colspan="2">WTLAB</td>
+            <td>CC</td>
+            <td>MOOC</td>
+        </tr>
+        <tr>
+            <td>TUE</td>
+            <td>DAA</td>
+            <td>CC</td>
+            <td colspan="2">CC LAB</td>
+            <td>WT</td>
+            <td>MOOC</td>
+        </tr>
+        <tr>
+            <td>WED</td>
+            <td>WT</td>
+            <td>ML</td>
+            <td colspan="2">DAA LAB</td>
+            <td>DAA</td>
+            <td>MOOC</td>
+        </tr>
+        <tr>
+            <td>THUR</td>
+            <td>MOOC</td>
+            <td>MOOC</td>
+            <td colspan="2">ML LAB</td>
+            <td>WT</td>
+            <td>MOOC</td>
+        </tr>
+        <tr>
+            <td>FRI</td>
+            <td>ML</td>
+            <td>CC</td>
+            <td>MOOC</td>
+            <td>DAA</td>
+            <td>MOOC</td>
+            <td>LIB</td>
+        </tr>
+    </table>
+</body>
+</html>
